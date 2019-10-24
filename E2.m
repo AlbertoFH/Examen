@@ -1,5 +1,5 @@
 syms x
-f=('3(x+1)^-1')
+f=('3*(x+1)^-1')
 f=inline(f);
 derivada=diff(f,x);
 df=inline(derivada);
